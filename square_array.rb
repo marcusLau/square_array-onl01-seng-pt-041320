@@ -4,11 +4,11 @@ def square_array(array)
   # Avoid mutating the original argument 'array' by creating an empty array
   arr=[]
   
-
   array.each do |num|
     arr << num ** 2
   end
 
   # array.each { |num| arr << num ** 2}
+  
   arr
 end
