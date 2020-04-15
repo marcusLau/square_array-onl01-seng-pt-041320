@@ -7,6 +7,7 @@ def square_array(array)
   
   array.each do |num|
     arr << num ** 2
+  end
   
   # array.each { |num| arr << num ** 2}
   arr
